@@ -1,10 +1,8 @@
 # Travis CI configuration. See https://travis-ci.org/johnswingle44/testproj/
 language: java
-dist: trusty
-sudo: required
 jdk:
   - oraclejdk8
-  - openjdk7
+  - oraclejdk7
   - openjdk6
 branches:
   only:
