@@ -1,9 +1,9 @@
 # Travis CI configuration. See https://travis-ci.org/johnswingle44/testproj/
 language: java
 jdk:
-  - openjdk8
-  - openjdk7
-  - openjdk6
+  - oraclejdk8
+  - oraclejdk7
+  - oraclejdk6
 branches:
   only:
     - master
