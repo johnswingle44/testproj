@@ -1,5 +1,6 @@
 # Travis CI configuration. See https://travis-ci.org/johnswingle44/testproj/
 language: java
+dist: trusty
 jdk:
   - openjdk8
   - openjdk7
